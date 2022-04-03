@@ -1,6 +1,8 @@
-package com.github.mateuszhorczak;
+package com.github.mateuszhorczak.kartoteka.mockup;
 
-public class mockup implements Kartoteka {
+import com.github.mateuszhorczak.kartoteka.Osoba;
+
+public class Kartoteka implements com.github.mateuszhorczak.kartoteka.Kartoteka {
 
     @Override
     public void dodaj(Osoba osoba) { }

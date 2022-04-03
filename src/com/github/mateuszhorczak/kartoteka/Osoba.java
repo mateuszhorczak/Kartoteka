@@ -1,4 +1,4 @@
-package com.github.mateuszhorczak;
+package com.github.mateuszhorczak.kartoteka;
 
 public class Osoba {
     private String imie;
