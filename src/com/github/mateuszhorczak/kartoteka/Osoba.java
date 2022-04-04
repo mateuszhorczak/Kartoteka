@@ -14,10 +14,10 @@ public class Osoba {
     public String getNazwisko() {
         return nazwisko;
     }
-
     public String getImie() {
         return imie;
     }
+
     public String toString() {
         return imie + " " + nazwisko;
     }

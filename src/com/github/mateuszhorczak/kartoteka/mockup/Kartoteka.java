@@ -5,7 +5,7 @@ import com.github.mateuszhorczak.kartoteka.Osoba;
 import java.util.List;
 
 public class Kartoteka implements com.github.mateuszhorczak.kartoteka.Kartoteka {
-    private List<Osoba> kartoteka;
+    private List<Osoba> kartoteka; //kolekcja
 
     public Kartoteka(List<Osoba> kartoteka) {
         this.kartoteka = kartoteka;
@@ -33,7 +33,7 @@ public class Kartoteka implements com.github.mateuszhorczak.kartoteka.Kartoteka 
     }
 
     public void print() {
-        for (var item : this.kartoteka) {
+        for (var item : this.kartoteka) { //var dopasowuje typ zmiennej
             System.out.println(item);
         }
     }
